@@ -7,5 +7,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="klinec.jcardsim" level="project" />
+    <orderEntry type="library" name="bouncycastle.bcmail.jdk18on" level="project" />
   </component>
 </module>
