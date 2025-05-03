@@ -1,12 +1,14 @@
 package pqc.javacard.implementation;
 
-import javacard.framework.*;
+import javacard.framework.APDU;
+import javacard.framework.Applet;
+import javacard.framework.ISO7816;
+import javacard.framework.ISOException;
 import javacard.security.MessageDigest;
 import net.thiim.dilithium.interfaces.DilithiumParameterSpec;
+import net.thiim.dilithium.provider.DilithiumProvider;
 
 import java.security.*;
-import java.security.KeyPair;
-import java.security.Signature;
 
 /**
  * Crystals-Dilithium SHA3-256 Signing applet that supports chunked signing or only SHA3-256 hashing.
@@ -46,7 +48,7 @@ public class PQC_Applet extends Applet {
 
     /** This is the Class Constructor used for initialising Fields kept in EEPROM.*/
     private PQC_Applet() {
-        net.thiim.dilithium.provider.DilithiumProvider provider = new net.thiim.dilithium.provider.DilithiumProvider();
+        DilithiumProvider provider = new DilithiumProvider();
         Security.addProvider(provider);
 
         try {
@@ -130,7 +132,7 @@ public class PQC_Applet extends Applet {
                 /* Sending the final data output (be it only the SHA3 value or the PQC Signature */
                 apdu.setOutgoingAndSend((short) 0, (short) BYTE_LENGTH);
 
-                /* Resetting the SHA3-256 MessageDigest Object for future use. */
+                /* Resetting the S*/
                 sha3.reset();
                 break;
 

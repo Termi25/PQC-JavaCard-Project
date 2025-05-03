@@ -100,7 +100,7 @@ public class Host {
                 if(lastBlock){
 
                     byte[] dataBlock = new byte[remainingBytes];
-                    System.arraycopy(buffer, 0, dataBlock, 0, remainingBytes);
+                    System.arraycopy(buffer, offset, dataBlock, 0, remainingBytes);
 
                     ResponseAPDU response = simulator.transmitCommand(new CommandAPDU(0x00,0x20,appletMode,0x00,dataBlock));
                     bos.write(response.getData());
@@ -111,8 +111,10 @@ public class Host {
                     }
 
                 }else{
+                    byte[] dataBlock = new byte[BYTE_LENGTH];
+                    System.arraycopy(buffer, offset, dataBlock, 0, BYTE_LENGTH);
 
-                    ResponseAPDU response = simulator.transmitCommand(new CommandAPDU(0x00,0x10,0x00,0x00,buffer));
+                    ResponseAPDU response = simulator.transmitCommand(new CommandAPDU(0x00,0x10,0x00,0x00,dataBlock));
 
                     if (response.getSW() != 0x9000) {
                         throw new RuntimeException(String.format(
