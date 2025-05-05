@@ -102,12 +102,12 @@ public class PQC_Applet extends Applet {
 
         switch (buffer[ISO7816.OFFSET_INS]) {
 
-            /* Feeding the first N-1 Blocks of Data to the SHA3-256 MessageDigest Object*/
+            /* Feeding the first N-1 blocks of data to the SHA3-256 MessageDigest Object*/
             case INS_P_START:
                 sha3.update(buffer, ISO7816.OFFSET_CDATA, len);
                 break;
 
-            /* Feeding the first N-1 Blocks of Data to the SHA3-256 MessageDigest Object*/
+            /* Feeding the last block of data to the SHA3-256 MessageDigest Object*/
             case INS_P_END:
                 sha3.doFinal(buffer, ISO7816.OFFSET_CDATA, len, buffer, (short) 0x00);
 
@@ -132,7 +132,7 @@ public class PQC_Applet extends Applet {
                 /* Sending the final data output (be it only the SHA3 value or the PQC Signature */
                 apdu.setOutgoingAndSend((short) 0, (short) BYTE_LENGTH);
 
-                /* Resetting the S*/
+                /* Resetting the SHA-3 Object*/
                 sha3.reset();
                 break;
 
