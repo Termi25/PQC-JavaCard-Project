@@ -1,0 +1,267 @@
+D:\Diverse\Facultate CSIE\Masterat\An 1\Semestru 2\Blockchain, E-Payment and Post-Quantum Security\JavaCard\Testing\PQC_JavaCard_2\jcdk\bin>converter.bat -classdir "D:\Diverse\Facultate CSIE\Masterat\An 1\Semestru 2\Blockchain, E-Payment and Post-Quantum Security\JavaCard\Testing\PQC_JavaCard_2\classes" -applet 0xa0:0x00:0x00:0x00:0x62:0x12:0x34 PQC_Applet main 0xa0:0x00:0x00:0x00:0x62:0x12:0x35 1.0 -verbose
+[ INFO: ] Converter [v24.1]
+[ INFO: ]     Copyright (c) 1998, 2024, Oracle and/or its affiliates. All rights reserved.
+
+
+[ INFO: ] Target platform version [3.2.0]
+parsing D:\Diverse\Facultate CSIE\Masterat\An 1\Semestru 2\Blockchain, E-Payment and Post-Quantum Security\JavaCard\Testing\PQC_JavaCard_2\classes\main\Dilithium.class
+parsing D:\Diverse\Facultate CSIE\Masterat\An 1\Semestru 2\Blockchain, E-Payment and Post-Quantum Security\JavaCard\Testing\PQC_JavaCard_2\classes\main\DilithiumKeyFactory.class
+parsing D:\Diverse\Facultate CSIE\Masterat\An 1\Semestru 2\Blockchain, E-Payment and Post-Quantum Security\JavaCard\Testing\PQC_JavaCard_2\classes\main\DilithiumKeyPairGenerator.class
+parsing D:\Diverse\Facultate CSIE\Masterat\An 1\Semestru 2\Blockchain, E-Payment and Post-Quantum Security\JavaCard\Testing\PQC_JavaCard_2\classes\main\DilithiumKeySpec.class
+parsing D:\Diverse\Facultate CSIE\Masterat\An 1\Semestru 2\Blockchain, E-Payment and Post-Quantum Security\JavaCard\Testing\PQC_JavaCard_2\classes\main\DilithiumParameterSpec.class
+parsing D:\Diverse\Facultate CSIE\Masterat\An 1\Semestru 2\Blockchain, E-Payment and Post-Quantum Security\JavaCard\Testing\PQC_JavaCard_2\classes\main\DilithiumPrivateKey.class
+parsing D:\Diverse\Facultate CSIE\Masterat\An 1\Semestru 2\Blockchain, E-Payment and Post-Quantum Security\JavaCard\Testing\PQC_JavaCard_2\classes\main\DilithiumPrivateKeyImpl.class
+parsing D:\Diverse\Facultate CSIE\Masterat\An 1\Semestru 2\Blockchain, E-Payment and Post-Quantum Security\JavaCard\Testing\PQC_JavaCard_2\classes\main\DilithiumPrivateKeySpec.class
+parsing D:\Diverse\Facultate CSIE\Masterat\An 1\Semestru 2\Blockchain, E-Payment and Post-Quantum Security\JavaCard\Testing\PQC_JavaCard_2\classes\main\DilithiumProvider.class
+parsing D:\Diverse\Facultate CSIE\Masterat\An 1\Semestru 2\Blockchain, E-Payment and Post-Quantum Security\JavaCard\Testing\PQC_JavaCard_2\classes\main\DilithiumPublicKey.class
+parsing D:\Diverse\Facultate CSIE\Masterat\An 1\Semestru 2\Blockchain, E-Payment and Post-Quantum Security\JavaCard\Testing\PQC_JavaCard_2\classes\main\DilithiumPublicKeyImpl.class
+parsing D:\Diverse\Facultate CSIE\Masterat\An 1\Semestru 2\Blockchain, E-Payment and Post-Quantum Security\JavaCard\Testing\PQC_JavaCard_2\classes\main\DilithiumPublicKeySpec.class
+parsing D:\Diverse\Facultate CSIE\Masterat\An 1\Semestru 2\Blockchain, E-Payment and Post-Quantum Security\JavaCard\Testing\PQC_JavaCard_2\classes\main\DilithiumSignature.class
+parsing D:\Diverse\Facultate CSIE\Masterat\An 1\Semestru 2\Blockchain, E-Payment and Post-Quantum Security\JavaCard\Testing\PQC_JavaCard_2\classes\main\Host.class
+parsing D:\Diverse\Facultate CSIE\Masterat\An 1\Semestru 2\Blockchain, E-Payment and Post-Quantum Security\JavaCard\Testing\PQC_JavaCard_2\classes\main\PQC_Applet.class
+parsing D:\Diverse\Facultate CSIE\Masterat\An 1\Semestru 2\Blockchain, E-Payment and Post-Quantum Security\JavaCard\Testing\PQC_JavaCard_2\classes\main\PackingUtils.class
+parsing D:\Diverse\Facultate CSIE\Masterat\An 1\Semestru 2\Blockchain, E-Payment and Post-Quantum Security\JavaCard\Testing\PQC_JavaCard_2\classes\main\Poly.class
+parsing D:\Diverse\Facultate CSIE\Masterat\An 1\Semestru 2\Blockchain, E-Payment and Post-Quantum Security\JavaCard\Testing\PQC_JavaCard_2\classes\main\PolyVec.class
+parsing D:\Diverse\Facultate CSIE\Masterat\An 1\Semestru 2\Blockchain, E-Payment and Post-Quantum Security\JavaCard\Testing\PQC_JavaCard_2\classes\main\Utils.class
+error: line 52: main.Dilithium: unsupported multidimensional array. Cannot create multidimensional array.
+error: line 52: main.Dilithium: unsupported parameter type multidimensional array of invoked method getSHAKE256Digest(int, null) of class main.Utils.
+error: line 106: main.Dilithium: unsupported multidimensional array. Cannot create multidimensional array.
+error: line 106: main.Dilithium: unsupported parameter type multidimensional array of invoked method concat(null) of class main.Utils.
+error: line 108: main.Dilithium: unsupported multidimensional array. Cannot create multidimensional array.
+error: line 108: main.Dilithium: unsupported parameter type multidimensional array of invoked method concat(null) of class main.Utils.
+error: line 183: main.Dilithium: unsupported String type constant.
+error: line 183: main.Dilithium: unsupported parameter type String of invoked method <init>(java.lang.String) of class java.lang.RuntimeException.
+error: line 205: main.Dilithium: unsupported String type constant.
+error: line 205: main.Dilithium: unsupported parameter type String of invoked method <init>(java.lang.String) of class java.lang.RuntimeException.
+error: line 210: main.Dilithium: unsupported String type constant.
+error: line 210: main.Dilithium: unsupported parameter type String of invoked method <init>(java.lang.String) of class java.lang.RuntimeException.
+error: line 220: main.Dilithium: unsupported String type constant.
+error: line 220: main.Dilithium: unsupported parameter type String of invoked method <init>(java.lang.String) of class java.lang.IllegalArgumentException.
+error: line 225: main.Dilithium: unsupported String type constant.
+error: line 225: main.Dilithium: unsupported parameter type String of invoked method <init>(java.lang.String) of class java.lang.RuntimeException.
+error: line 229: main.Dilithium: unsupported multidimensional array. Cannot create multidimensional array.
+error: line 229: main.Dilithium: unsupported parameter type multidimensional array of invoked method getSHAKE256Digest(int, null) of class main.Utils.
+error: line 258: main.Dilithium: unsupported multidimensional array. Cannot create multidimensional array.
+error: line 258: main.Dilithium: unsupported parameter type multidimensional array of invoked method getSHAKE256Digest(int, null) of class main.Utils.
+error: line 307: main.Dilithium: unsupported String type constant.
+error: line 307: main.Dilithium: unsupported parameter type String of invoked method append(java.lang.String) of class java.lang.StringBuilder.
+error: line 307: main.Dilithium: unsupported return type String of invoked method toString() of class java.lang.StringBuilder.
+error: line 307: main.Dilithium: unsupported parameter type String of invoked method <init>(java.lang.String) of class java.lang.RuntimeException.
+error: line 328: main.Dilithium: unsupported String type constant.
+error: line 328: main.Dilithium: unsupported parameter type String of invoked method append(java.lang.String) of class java.lang.StringBuilder.
+error: line 328: main.Dilithium: unsupported return type String of invoked method toString() of class java.lang.StringBuilder.
+error: line 328: main.Dilithium: unsupported parameter type String of invoked method <init>(java.lang.String) of class java.lang.RuntimeException.
+error: line 383: main.Dilithium: unsupported long type constant.
+error: line 383: main.Dilithium: unsupported type long of local variable.
+error: line 385: main.Dilithium: unsupported type long. Cannot promote to type long.
+error: line 385: main.Dilithium: unsupported type long of local variable.
+error: line 398: main.Dilithium: unsupported long type constant.
+error: line 398: main.Dilithium: unsupported long type constant.
+error: line 398: main.Dilithium: unsupported long type constant.
+error: line 399: main.Dilithium: unsupported type long of local variable.
+error: line 22: main.Dilithium: unsupported array type int[]. cannot create array of type int[].
+error: line 11: main.DilithiumKeyFactory: unsupported String type constant.
+error: line 11: main.DilithiumKeyFactory: unsupported parameter type String of invoked method <init>(java.lang.String) of class java.lang.IllegalArgumentException.
+error: line 20: main.DilithiumKeyFactory: unsupported String type constant.
+error: line 20: main.DilithiumKeyFactory: unsupported parameter type String of invoked method <init>(java.lang.String) of class java.lang.IllegalArgumentException.
+error: line 28: main.DilithiumKeyFactory: unsupported String type constant.
+error: line 28: main.DilithiumKeyFactory: unsupported parameter type String of invoked method <init>(java.lang.String) of class java.lang.UnsupportedOperationException.
+error: line 33: main.DilithiumKeyFactory: unsupported String type constant.
+error: line 33: main.DilithiumKeyFactory: unsupported parameter type String of invoked method <init>(java.lang.String) of class java.lang.UnsupportedOperationException.
+error: line 16: main.DilithiumKeyPairGenerator: unsupported String type constant.
+error: line 16: main.DilithiumKeyPairGenerator: unsupported parameter type String of invoked method <init>(java.lang.String) of class java.lang.UnsupportedOperationException.
+error: line 22: main.DilithiumKeyPairGenerator: unsupported String type constant.
+error: line 22: main.DilithiumKeyPairGenerator: unsupported parameter type String of invoked method <init>(java.lang.String) of class java.lang.IllegalStateException.
+error: line 38: main.DilithiumKeyPairGenerator: unsupported String type constant.
+error: line 38: main.DilithiumKeyPairGenerator: unsupported parameter type String of invoked method <init>(java.lang.String) of class java.security.InvalidAlgorithmParameterException.
+error: main.DilithiumParameterSpec: unsupported type String of field name.
+error: main.DilithiumParameterSpec: unsupported parameter type String of method <init>.
+error: line 20: main.DilithiumParameterSpec: unsupported field type String of accessed field name of class main.DilithiumParameterSpec.
+error: line 48: main.DilithiumParameterSpec: unsupported String type constant.
+error: line 48: main.DilithiumParameterSpec: unsupported parameter type String of invoked method append(java.lang.String) of class java.lang.StringBuilder.
+error: line 48: main.DilithiumParameterSpec: unsupported return type String of invoked method toString() of class java.lang.StringBuilder.
+error: line 48: main.DilithiumParameterSpec: unsupported parameter type String of invoked method <init>(java.lang.String) of class java.lang.UnsupportedOperationException.
+error: main.DilithiumParameterSpec: unsupported return type String of method toString.
+error: line 55: main.DilithiumParameterSpec: unsupported field type String of accessed field name of class main.DilithiumParameterSpec.
+error: line 33: main.DilithiumParameterSpec: unsupported bytecode new in clinit method.
+error: line 33: main.DilithiumParameterSpec: unsupported bytecode invokespecial in clinit method.
+error: line 33: main.DilithiumParameterSpec: unsupported parameter type String of invoked method <init>(java.lang.String, int, int, int, int, int, int, int, int, int, int) of class main.DilithiumParameterSpec.
+error: line 34: main.DilithiumParameterSpec: unsupported bytecode new in clinit method.
+error: line 34: main.DilithiumParameterSpec: unsupported bytecode invokespecial in clinit method.
+error: line 34: main.DilithiumParameterSpec: unsupported parameter type String of invoked method <init>(java.lang.String, int, int, int, int, int, int, int, int, int, int) of class main.DilithiumParameterSpec.
+error: line 35: main.DilithiumParameterSpec: unsupported bytecode new in clinit method.
+error: line 35: main.DilithiumParameterSpec: unsupported bytecode invokespecial in clinit method.
+error: line 35: main.DilithiumParameterSpec: unsupported parameter type String of invoked method <init>(java.lang.String, int, int, int, int, int, int, int, int, int, int) of class main.DilithiumParameterSpec.
+error: main.DilithiumPrivateKeyImpl: unsupported type long of field serialVersionUID.
+error: main.DilithiumPrivateKeyImpl: unsupported return type String of method getAlgorithm.
+error: line 37: main.DilithiumPrivateKeyImpl: unsupported String type constant.
+error: main.DilithiumPrivateKeyImpl: unsupported return type String of method getFormat.
+error: line 42: main.DilithiumPrivateKeyImpl: unsupported String type constant.
+error: main.DilithiumProvider: unsupported type long of field serialVersionUID.
+error: line 9: main.DilithiumProvider: unsupported String type constant.
+error: line 9: main.DilithiumProvider: unsupported String type constant.
+error: line 9: main.DilithiumProvider: unsupported parameter type String of invoked method parseDouble(java.lang.String) of class java.lang.Double.
+error: line 9: main.DilithiumProvider: unsupported return type double of invoked method parseDouble(java.lang.String) of class java.lang.Double.
+error: line 9: main.DilithiumProvider: unsupported String type constant.
+error: line 9: main.DilithiumProvider: unsupported parameter type String of invoked method <init>(java.lang.String, double, java.lang.String) of class java.security.Provider.
+error: line 9: main.DilithiumProvider: unsupported parameter type double of invoked method <init>(java.lang.String, double, java.lang.String) of class java.security.Provider.
+error: line 9: main.DilithiumProvider: unsupported parameter type String of invoked method <init>(java.lang.String, double, java.lang.String) of class java.security.Provider.
+error: main.DilithiumPublicKeyImpl: unsupported type long of field serialVersionUID.
+error: main.DilithiumPublicKeyImpl: unsupported return type String of method getAlgorithm.
+error: line 22: main.DilithiumPublicKeyImpl: unsupported String type constant.
+error: main.DilithiumPublicKeyImpl: unsupported return type String of method getFormat.
+error: line 27: main.DilithiumPublicKeyImpl: unsupported String type constant.
+error: line 21: main.DilithiumSignature: unsupported String type constant.
+error: line 21: main.DilithiumSignature: unsupported parameter type String of invoked method <init>(java.lang.String) of class java.lang.IllegalArgumentException.
+error: line 32: main.DilithiumSignature: unsupported String type constant.
+error: line 32: main.DilithiumSignature: unsupported parameter type String of invoked method <init>(java.lang.String) of class java.lang.IllegalArgumentException.
+error: line 53: main.DilithiumSignature: unsupported String type constant.
+error: line 53: main.DilithiumSignature: unsupported parameter type String of invoked method <init>(java.lang.String) of class java.lang.IllegalStateException.
+error: line 64: main.DilithiumSignature: unsupported String type constant.
+error: line 64: main.DilithiumSignature: unsupported parameter type String of invoked method <init>(java.lang.String) of class java.lang.IllegalStateException.
+error: main.DilithiumSignature: unsupported parameter type String of method engineSetParameter.
+error: line 74: main.DilithiumSignature: unsupported String type constant.
+error: line 74: main.DilithiumSignature: unsupported parameter type String of invoked method <init>(java.lang.String) of class java.lang.UnsupportedOperationException.
+error: main.DilithiumSignature: unsupported parameter type String of method engineGetParameter.
+error: line 80: main.DilithiumSignature: unsupported String type constant.
+error: line 80: main.DilithiumSignature: unsupported parameter type String of invoked method <init>(java.lang.String) of class java.lang.UnsupportedOperationException.
+error: main.Host: unsupported parameter type String[] of method main.
+error: line 30: main.Host: unsupported String type constant.
+error: line 30: main.Host: unsupported parameter type String of invoked method create(java.lang.String) of class com.licel.jcardsim.utils.AIDUtil.
+error: line 37: main.Host: unsupported String type constant.
+error: line 37: main.Host: unsupported parameter type String of invoked method <init>(java.lang.String) of class java.io.File.
+error: line 39: main.Host: unsupported String type constant.
+error: line 39: main.Host: unsupported parameter type String of invoked method println(java.lang.String) of class java.io.PrintStream.
+error: line 52: main.Host: unsupported return type String of invoked method getName() of class java.io.File.
+error: line 52: main.Host: unsupported String type constant.
+error: line 52: main.Host: unsupported parameter type String of invoked method endsWith(java.lang.String) of class java.lang.String.
+error: line 52: main.Host: unsupported return type String of invoked method getName() of class java.io.File.
+error: line 52: main.Host: unsupported String type constant.
+error: line 52: main.Host: unsupported parameter type String of invoked method endsWith(java.lang.String) of class java.lang.String.
+error: line 58: main.Host: unsupported return type String of invoked method getName() of class java.io.File.
+error: line 58: main.Host: unsupported String type constant.
+error: line 58: main.Host: unsupported parameter type String of invoked method split(java.lang.String) of class java.lang.String.
+error: line 58: main.Host: unsupported return type String[] of invoked method split(java.lang.String) of class java.lang.String.
+error: line 58: main.Host: unsupported parameter type String of invoked method append(java.lang.String) of class java.lang.StringBuilder.
+error: line 58: main.Host: unsupported String type constant.
+error: line 58: main.Host: unsupported parameter type String of invoked method append(java.lang.String) of class java.lang.StringBuilder.
+error: line 58: main.Host: unsupported return type String of invoked method toString() of class java.lang.StringBuilder.
+error: line 58: main.Host: unsupported parameter type String of invoked method <init>(java.io.File, java.lang.String) of class java.io.File.
+error: line 63: main.Host: unsupported return type String of invoked method getName() of class java.io.File.
+error: line 63: main.Host: unsupported String type constant.
+error: line 63: main.Host: unsupported parameter type String of invoked method split(java.lang.String) of class java.lang.String.
+error: line 63: main.Host: unsupported return type String[] of invoked method split(java.lang.String) of class java.lang.String.
+error: line 63: main.Host: unsupported parameter type String of invoked method append(java.lang.String) of class java.lang.StringBuilder.
+error: line 63: main.Host: unsupported String type constant.
+error: line 63: main.Host: unsupported parameter type String of invoked method append(java.lang.String) of class java.lang.StringBuilder.
+error: line 63: main.Host: unsupported return type String of invoked method toString() of class java.lang.StringBuilder.
+error: line 63: main.Host: unsupported parameter type String of invoked method <init>(java.io.File, java.lang.String) of class java.io.File.
+error: line 106: main.Host: unsupported String type constant.
+error: line 106: main.Host: unsupported parameter type String of invoked method format(java.lang.String, java.lang.Object[]) of class java.lang.String.
+error: line 106: main.Host: unsupported return type String of invoked method format(java.lang.String, java.lang.Object[]) of class java.lang.String.
+error: line 106: main.Host: unsupported parameter type String of invoked method <init>(java.lang.String) of class java.lang.RuntimeException.
+error: line 117: main.Host: unsupported String type constant.
+error: line 117: main.Host: unsupported parameter type String of invoked method format(java.lang.String, java.lang.Object[]) of class java.lang.String.
+error: line 117: main.Host: unsupported return type String of invoked method format(java.lang.String, java.lang.Object[]) of class java.lang.String.
+error: line 117: main.Host: unsupported parameter type String of invoked method <init>(java.lang.String) of class java.lang.RuntimeException.
+error: line 59: main.PQC_Applet: unsupported String type constant.
+error: line 59: main.PQC_Applet: unsupported parameter type String of invoked method getInstance(java.lang.String) of class java.security.KeyPairGenerator.
+error: line 64: main.PQC_Applet: unsupported String type constant.
+error: line 64: main.PQC_Applet: unsupported parameter type String of invoked method getInstance(java.lang.String) of class java.security.Signature.
+error: line 41: main.PackingUtils: unsupported String type constant.
+error: line 41: main.PackingUtils: unsupported parameter type String of invoked method append(java.lang.String) of class java.lang.StringBuilder.
+error: line 41: main.PackingUtils: unsupported return type String of invoked method toString() of class java.lang.StringBuilder.
+error: line 41: main.PackingUtils: unsupported parameter type String of invoked method <init>(java.lang.String) of class java.lang.IllegalArgumentException.
+error: line 54: main.PackingUtils: unsupported String type constant.
+error: line 54: main.PackingUtils: unsupported parameter type String of invoked method append(java.lang.String) of class java.lang.StringBuilder.
+error: line 54: main.PackingUtils: unsupported return type String of invoked method toString() of class java.lang.StringBuilder.
+error: line 54: main.PackingUtils: unsupported parameter type String of invoked method <init>(java.lang.String) of class java.lang.IllegalArgumentException.
+error: line 66: main.PackingUtils: unsupported String type constant.
+error: line 66: main.PackingUtils: unsupported parameter type String of invoked method append(java.lang.String) of class java.lang.StringBuilder.
+error: line 66: main.PackingUtils: unsupported return type String of invoked method toString() of class java.lang.StringBuilder.
+error: line 66: main.PackingUtils: unsupported parameter type String of invoked method <init>(java.lang.String) of class java.lang.RuntimeException.
+error: line 78: main.PackingUtils: unsupported String type constant.
+error: line 78: main.PackingUtils: unsupported parameter type String of invoked method append(java.lang.String) of class java.lang.StringBuilder.
+error: line 78: main.PackingUtils: unsupported return type String of invoked method toString() of class java.lang.StringBuilder.
+error: line 78: main.PackingUtils: unsupported parameter type String of invoked method <init>(java.lang.String) of class java.lang.RuntimeException.
+error: line 95: main.PackingUtils: unsupported String type constant.
+error: line 95: main.PackingUtils: unsupported parameter type String of invoked method <init>(java.lang.String) of class java.lang.RuntimeException.
+error: line 9: main.Poly: unsupported array type int[]. cannot create array of type int[].
+error: main.Poly: unsupported return type String of method toString.
+error: line 31: main.Poly: unsupported String type constant.
+error: line 31: main.Poly: unsupported parameter type String of invoked method append(java.lang.String) of class java.lang.StringBuffer.
+error: line 34: main.Poly: unsupported String type constant.
+error: line 34: main.Poly: unsupported parameter type String of invoked method append(java.lang.String) of class java.lang.StringBuffer.
+error: line 36: main.Poly: unsupported String type constant.
+error: line 36: main.Poly: unsupported parameter type String of invoked method append(java.lang.String) of class java.lang.StringBuilder.
+error: line 36: main.Poly: unsupported return type String of invoked method toString() of class java.lang.StringBuilder.
+error: line 36: main.Poly: unsupported parameter type String of invoked method append(java.lang.String) of class java.lang.StringBuffer.
+error: line 38: main.Poly: unsupported String type constant.
+error: line 38: main.Poly: unsupported parameter type String of invoked method append(java.lang.String) of class java.lang.StringBuffer.
+error: line 39: main.Poly: unsupported return type String of invoked method toString() of class java.lang.StringBuffer.
+error: line 49: main.Poly: unsupported String type constant.
+error: line 49: main.Poly: unsupported parameter type String of invoked method append(java.lang.String) of class java.lang.StringBuilder.
+error: line 49: main.Poly: unsupported return type String of invoked method toString() of class java.lang.StringBuilder.
+error: line 49: main.Poly: unsupported parameter type String of invoked method <init>(java.lang.String) of class java.lang.IllegalArgumentException.
+error: line 121: main.Poly: unsupported type long. Cannot promote to type long.
+error: line 121: main.Poly: unsupported type long. Cannot promote to type long.
+error: line 121: main.Poly: unsupported parameter type long of invoked method montgomery_reduce(long) of class main.Poly.
+error: main.Poly: unsupported parameter type long of method montgomery_reduce.
+error: line 133: main.Poly: unsupported long type constant.
+error: line 134: main.Poly: unsupported type long. Cannot promote to type long.
+error: line 134: main.Poly: unsupported long type constant.
+error: line 134: main.Poly: unsupported long type constant.
+error: line 190: main.Poly: unsupported type long. Cannot promote to type long.
+error: line 190: main.Poly: unsupported type long. Cannot promote to type long.
+error: line 190: main.Poly: unsupported parameter type long of invoked method montgomery_reduce(long) of class main.Poly.
+error: line 222: main.Poly: unsupported type long. Cannot promote to type long.
+error: line 222: main.Poly: unsupported type long. Cannot promote to type long.
+error: line 222: main.Poly: unsupported parameter type long of invoked method montgomery_reduce(long) of class main.Poly.
+error: line 228: main.Poly: unsupported long type constant.
+error: line 228: main.Poly: unsupported type long. Cannot promote to type long.
+error: line 228: main.Poly: unsupported parameter type long of invoked method montgomery_reduce(long) of class main.Poly.
+error: line 293: main.Poly: unsupported String type constant.
+error: line 293: main.Poly: unsupported parameter type String of invoked method append(java.lang.String) of class java.lang.StringBuilder.
+error: line 293: main.Poly: unsupported return type String of invoked method toString() of class java.lang.StringBuilder.
+error: line 293: main.Poly: unsupported parameter type String of invoked method <init>(java.lang.String) of class java.lang.IllegalArgumentException.
+error: line 298: main.Poly: unsupported array type int[]. cannot create array of type int[].
+error: line 391: main.Poly: unsupported String type constant.
+error: line 391: main.Poly: unsupported parameter type String of invoked method append(java.lang.String) of class java.lang.StringBuilder.
+error: line 391: main.Poly: unsupported return type String of invoked method toString() of class java.lang.StringBuilder.
+error: line 391: main.Poly: unsupported parameter type String of invoked method <init>(java.lang.String) of class java.lang.IllegalArgumentException.
+error: line 413: main.Poly: unsupported String type constant.
+error: line 413: main.Poly: unsupported parameter type String of invoked method append(java.lang.String) of class java.lang.StringBuilder.
+error: line 413: main.Poly: unsupported return type String of invoked method toString() of class java.lang.StringBuilder.
+error: line 413: main.Poly: unsupported parameter type String of invoked method <init>(java.lang.String) of class java.lang.IllegalArgumentException.
+error: line 437: main.Poly: unsupported String type constant.
+error: line 437: main.Poly: unsupported parameter type String of invoked method append(java.lang.String) of class java.lang.StringBuilder.
+error: line 437: main.Poly: unsupported return type String of invoked method toString() of class java.lang.StringBuilder.
+error: line 437: main.Poly: unsupported parameter type String of invoked method <init>(java.lang.String) of class java.lang.IllegalArgumentException.
+error: line 468: main.Poly: unsupported array type long[]. cannot create array of type long[].
+error: line 472: main.Poly: unsupported type long. Cannot promote to type long.
+error: line 472: main.Poly: unsupported long type constant.
+error: line 473: main.Poly: unsupported type long. Cannot promote to type long.
+error: line 473: main.Poly: unsupported long type constant.
+error: line 474: main.Poly: unsupported type long. Cannot promote to type long.
+error: line 474: main.Poly: unsupported long type constant.
+error: line 475: main.Poly: unsupported type long. Cannot promote to type long.
+error: line 475: main.Poly: unsupported long type constant.
+error: line 493: main.Poly: unsupported type long. Cannot promote to type long.
+error: line 494: main.Poly: unsupported type long. Cannot promote to type long.
+error: line 505: main.Poly: unsupported String type constant.
+error: line 505: main.Poly: unsupported parameter type String of invoked method append(java.lang.String) of class java.lang.StringBuilder.
+error: line 505: main.Poly: unsupported return type String of invoked method toString() of class java.lang.StringBuilder.
+error: line 505: main.Poly: unsupported parameter type String of invoked method <init>(java.lang.String) of class java.lang.IllegalArgumentException.
+error: main.Utils: method concat declared having variable number of arguments.
+error: main.Utils: unsupported parameter type multidimensional array of method concat.
+error: line 22: main.Utils: unsupported String type constant.
+error: line 22: main.Utils: unsupported parameter type String of invoked method <init>(java.lang.String) of class java.lang.RuntimeException.
+error: main.Utils: method getSHAKE256Digest declared having variable number of arguments.
+error: main.Utils: unsupported parameter type multidimensional array of method getSHAKE256Digest.
+error: line 29: main.Utils: unsupported parameter type multidimensional array of invoked method concat(null) of class main.Utils.
+error: line 38: main.Utils: unsupported multidimensional array. Cannot create multidimensional array.
+error: line 38: main.Utils: unsupported parameter type multidimensional array of invoked method getSHAKE256Digest(int, null) of class main.Utils.
+error: line 42: main.Utils: unsupported multidimensional array. Cannot create multidimensional array.
+error: line 42: main.Utils: unsupported parameter type multidimensional array of invoked method getSHAKE256Digest(int, null) of class main.Utils.
+
+[ INFO: ] conversion completed with 240 errors and 0 warnings.
